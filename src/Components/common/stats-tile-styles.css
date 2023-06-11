@@ -1,0 +1,19 @@
+.stats-tile {
+  height: 120px;
+  flex: 1;
+  border: solid 3px gray;
+  border-radius: 6px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+.total {
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+.stats-title {
+  font-size: 1.5rem;
+}

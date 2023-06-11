@@ -1,0 +1,48 @@
+.customer-dropdown-container {
+  display: flex;
+  flex-direction: column;
+}
+.customer-label {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.stats-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 0;
+}
+.stats-container > *:not(:first-child) {
+  margin-left: 24px;
+}
+.malicious-domains-container {
+  border: solid 3px gray;
+  border-radius: 6px;
+  padding: 1rem;
+  min-height: 170px;
+  display: flex;
+  flex-direction: column;
+}
+.malicious-domain-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.malicious-domain-table {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  font-size: 16px;
+}
+.malicious-domain-table-col-header {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.malicious-domain-table-col {
+  line-height: 20px;
+}
+.malicious-domain-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
