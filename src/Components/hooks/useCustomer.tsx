@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import { CustomerInfo } from "../customer-interfaces";
+import { CustomerInfo } from "../customers/customer-interfaces";
 
 const useCustomer = () => {
   const [customers, setCustomers] = useState<CustomerInfo[]>([]);
